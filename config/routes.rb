@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
   devise_for :users
-  root 'games#index'
+  root 'games#_index'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
-  root to: 'games#index'
+  root to: 'games#_index'
   resources :games
 
 end
