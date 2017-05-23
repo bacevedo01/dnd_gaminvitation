@@ -1,4 +1,37 @@
-<p id="notice"<%= notice %>
+<p id="notice"><%= notice %></p>
+<img src="<%= @game.img_url %>">
+
+<table>
+  <tr>
+    <th>Title:</th>
+    <td><%= @game.title %></td>
+  </tr>
+  <tr>
+    <th>Players:</th>
+    <td><%= @game.players %></td>
+  </tr>
+  <tr>
+    <th>Age:</th>
+    <td><%= @game.age %></td>
+  </tr>
+  <tr>
+    <th>Play time:</th>
+    <td><%= @game.play_time %></td>
+  </tr>
+  <tr>
+    <th>Complexity:</th>
+    <td><%= @game.complexity %></td>
+  </tr>
+  <tr>
+    <th>Publisher:</th>
+    <td><%= @game.publisher %></td>
+  </tr>
+  <tr>
+    <th>Description:</th>
+    <td><%= @game.description %></td>
+  </tr>
+</table>
+
 <%= link_to 'Edit', edit_game_path(@game) %>
 |
 <%= link_to 'Back', games_path %>
