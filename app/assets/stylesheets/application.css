@@ -14,23 +14,46 @@
  *= require_self
  */
 body {
+  font-family: 'Roboto Condensed', sans-serif;
+  margin:0;
+    font-size: 25px;
     background:#2b6da9;
     color: #e8dfe0;
+    border:solid;
 }
 
 h1 {
+    text-align: center;
     border-bottom: thick solid #c9515f;
     color: #e8dfe0;
 }
 
 input, textarea {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
   border: none;
   background:#2b6da9;
   border-bottom: solid #b57d4e;
+  border-radius: 25px;
   color: #e8dfe0;
 }
-
+input{
+  width: 80%;
+}
+textarea{
+  border-radius: 10px;
+  width: 80%;
+}
+#new_game_form{
+  font-size: 25px;
+  border: solid;
+  border-width: 15px;
+  border-color: #c9515f;
+  padding: 20px;
+  margin: 20px;
+}
 #create_Button{
+  width: 150px;
   border: none;
   border-radius: 25px;
   background:#448599;
@@ -38,4 +61,11 @@ input, textarea {
 
 #create_Button:hover{
   background:#c9515f;
+}
+
+a:link{
+  color: white;
+}
+a:visited{
+  color: orange;
 }
