@@ -13,6 +13,29 @@
  *= require_tree .
  *= require_self
  */
+body {
+    background:#2b6da9;
+    color: #e8dfe0;
+}
+
 h1 {
-    color: blue;
+    border-bottom: thick solid #c9515f;
+    color: #e8dfe0;
+}
+
+input, textarea {
+  border: none;
+  background:#2b6da9;
+  border-bottom: solid #b57d4e;
+  color: #e8dfe0;
+}
+
+#create_Button{
+  border: none;
+  border-radius: 25px;
+  background:#448599;
+}
+
+#create_Button:hover{
+  background:#c9515f;
 }
