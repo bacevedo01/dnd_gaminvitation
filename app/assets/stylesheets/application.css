@@ -19,7 +19,7 @@ body {
     font-size: 25px;
     background:#2b6da9;
     color: #e8dfe0;
-    border:solid;
+    margin:20px;
 }
 
 h1 {
@@ -28,35 +28,45 @@ h1 {
     color: #e8dfe0;
 }
 
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 150px;
+    text-align: right;
+}
+
 input, textarea {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 20px;
   border: none;
-  background:#2b6da9;
-  border-bottom: solid #b57d4e;
-  border-radius: 25px;
-  color: #e8dfe0;
+  background:#D3D3D3;
+  border: solid #b57d4e;
+  border-radius: 10px;
+  color: black;
 }
 input{
-  width: 80%;
+  width: 60%;
 }
 textarea{
+  height: 100px;
   border-radius: 10px;
-  width: 80%;
+  width: 60%;
 }
 #new_game_form{
   font-size: 25px;
-  border: solid;
+  border: none;
   border-width: 15px;
   border-color: #c9515f;
-  padding: 20px;
-  margin: 20px;
+  padding: 45px;
+  margin: 45px;
 }
 #create_Button{
   width: 150px;
   border: none;
   border-radius: 25px;
   background:#448599;
+  color:#e8dfe0;
 }
 
 #create_Button:hover{
