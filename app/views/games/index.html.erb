@@ -1,5 +1,5 @@
 <p id="notice"><%= notice %></p>
-<h1>Games</h1>
+<h1>Wiki for Games</h1>
 <table>
   <thead>
     <tr>
@@ -10,6 +10,7 @@
     <% if @games != nil %>
       <% @games.each do |game| %>
         <tr>
+          <td><%= game.title %></td>
           <td><%= link_to 'Show', game %></td>
           <td><%= link_to 'Edit', edit_game_path(game) %></td>
           <td><%= link_to 'Destroy', game, method: :delete, data: { confirm: 'Are you sure?' } %></td>

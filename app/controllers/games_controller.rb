@@ -4,9 +4,10 @@ class GamesController < ApplicationController
   # GET /games
   # GET /games.json
   def index
-    @games = Game.all
-    render '/index.html.erb'
+    @games = Game.all 
+    render "index"
   end
+
 
   # GET /games/1
   # GET /games/1.json
