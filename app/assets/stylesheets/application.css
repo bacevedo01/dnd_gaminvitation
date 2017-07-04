@@ -22,7 +22,7 @@ body {
     margin:20px;
 }
 
-h1 {
+.header {
     text-align: center;
     border-bottom: thick solid #c9515f;
     color: #e8dfe0;
@@ -79,9 +79,7 @@ a:link{
 a:visited{
   color: orange;
 }
-img{
+.gameimage{
   width: 30%;
-  height: 30%;
-  min-height: 250px;
-  min-width: 250px;
+  height: auto;
 }
